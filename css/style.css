@@ -73,7 +73,17 @@ main {
 
 .lecture-os_and_computer_architecture-banner {
   background-size:auto;
-  background-image: url("../img/os_and_computer_architecture/bg-lecture-digital.jpg");
+  background-image: url("../img/os_and_computer_architecture/bg-lecture.jpg");
+}
+
+.lecture-programming_technologies-banner {
+  background-size:cover;
+  background-image: url("../img/programming_technologies/bg-lecture.jpg");
+}
+
+.lecture-network_technologies-banner {
+  background-size:cover;
+  background-image: url("../img/network_technologies/bg-lecture.jpg");
 }
 
 .lecture-banner h1 {
