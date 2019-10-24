@@ -65,23 +65,26 @@ main {
   padding: 50px;
   color: white;
 
-  background-color: #1946BA;
+  background-color: #091834;
   background-image: url("../img/bg-lecture.jpg");
   background-size:contain;
   background-position: center 25%;
 }
 
 .lecture-os_and_computer_architecture-banner {
+  background-color: #051B04;
   background-size:auto;
   background-image: url("../img/os_and_computer_architecture/bg-lecture.jpg");
 }
 
 .lecture-programming_technologies-banner {
+  background-color: #0B152E;
   background-size:cover;
   background-image: url("../img/programming_technologies/bg-lecture.jpg");
 }
 
 .lecture-network_technologies-banner {
+  background-color: #0B152E;
   background-size:cover;
   background-image: url("../img/network_technologies/bg-lecture.jpg");
 }
@@ -184,4 +187,17 @@ main {
   padding: 20px;
   text-align: center;
   font-size: 14px;
+}
+
+.a-frame-box {
+    border: 1px solid #aaa;
+    border-spacing: 3px;
+    background-color: #f9f9f9;
+    color: black;
+    margin: 0.5em 0 0.5em 1em;
+    padding: 0.2em;
+    float: right;
+    clear: right;
+    font-size: 88%;
+    line-height: 1.5em;
 }
