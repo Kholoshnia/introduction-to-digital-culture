@@ -89,6 +89,12 @@ main {
   background-image: url("../img/network_technologies/bg-lecture.jpg");
 }
 
+.lecture-internet_and_web_technologies-banner {
+  background-color: #016EBA;
+  background-size:cover;
+  background-image: url("../img/internet_and_web_technologies/bg-lecture.jpg");
+}
+
 .lecture-banner h1 {
   display: inline;
   margin: 0;
