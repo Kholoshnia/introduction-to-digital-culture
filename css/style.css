@@ -67,7 +67,7 @@ main {
 
   background-color: #091834;
   background-image: url("../img/bg-lecture.jpg");
-  background-size:contain;
+  background-size: contain;
   background-position: center 25%;
 }
 
@@ -93,6 +93,12 @@ main {
   background-color: #016EBA;
   background-size:cover;
   background-image: url("../img/internet_and_web_technologies/bg-lecture.jpg");
+}
+
+.lecture-virtual-augmented_and_mixed_reality_technologies-banner {
+  background-color: #016EBA;
+  background-size:cover;
+  background-image: url("../img/virtual-augmented_and_mixed_reality_technologies/bg-lecture.jpg");
 }
 
 .lecture-banner h1 {
@@ -193,17 +199,4 @@ main {
   padding: 20px;
   text-align: center;
   font-size: 14px;
-}
-
-.a-frame-box {
-    border: 1px solid #aaa;
-    border-spacing: 3px;
-    background-color: #f9f9f9;
-    color: black;
-    margin: 0.5em 0 0.5em 1em;
-    padding: 0.2em;
-    float: right;
-    clear: right;
-    font-size: 88%;
-    line-height: 1.5em;
 }
