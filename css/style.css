@@ -96,9 +96,15 @@ main {
 }
 
 .lecture-virtual-augmented_and_mixed_reality_technologies-banner {
-  background-color: #016EBA;
+  background-color: #1C91BC;
   background-size:cover;
   background-image: url("../img/virtual-augmented_and_mixed_reality_technologies/bg-lecture.jpg");
+}
+
+.lecture-personal_information_security_basics-banner {
+  background-color: #1AFBFD;
+  background-size:cover;
+  background-image: url("../img/personal_information_security_basics/bg-lecture.jpg");
 }
 
 .lecture-banner h1 {
