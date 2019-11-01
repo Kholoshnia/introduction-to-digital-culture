@@ -107,6 +107,12 @@ main {
   background-image: url("../img/personal_information_security_basics/bg-lecture.jpg");
 }
 
+.lecture-information_security-banner {
+  background-color: #1AFBFD;
+  background-size:cover;
+  background-image: url("../img/information_security/bg-lecture.jpg");
+}
+
 .lecture-banner h1 {
   display: inline;
   margin: 0;
