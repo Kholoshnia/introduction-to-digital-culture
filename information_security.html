@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Информационная безопасность</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="img/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="main-header">
+      <a href="index.html" class="logo">
+        <img src="img/logo.png" alt="Университет ИТМО" width="300">
+      </a>
+      <p class="username">Конспект курса от <b>Вадим Холошня</b></p>
+    </header>
+
+    <main>
+      <div class="lecture-banner lecture-information_security-banner">
+        <h1>Лекция «Информационная безопасность»</h1>
+      </div>
+
+      <section class="summary">
+        <h2>Конспект</h2>
+
+        <h3>Краткое содержание</h3>
+
+        <p>Перечень интересных ссылок на дополнительные матерьялы:</p>
+
+        <ul>
+          <li>Введение в информационную безопасность: <a href="https://www.securitylab.ru/blog/personal/Business_without_danger/24456.php">Триада "конфиденциальность, целостность, доступность": откуда она?</a>,</li>
+          <li>Алгоритмы и системы шифрования: <a href="https://vuzlit.ru/955735/klassifikatsiya_metodov_shifrovaniya">Классификация методов шифрования</a></li>
+          <li>Симметричные системы шифрования: <a href="http://www.furfur.me/furfur/culture/culture/166567-kriptografiya">ОКриптография: Базовые знания о науке шифрования</a></li>
+          <li>Несимметричная криптография: <a href="https://intsystem.org/security/asymmetric-encryption-how-it-work/">Асимметричное шифрование. Как это работает?</a></li>
+          <li>Алгоритмы шифрования RSA и Эль-Гамаля: <a href="http://www.volpi.ru/umkd/zki/index.php?man=1&page=18">Алгоритмы асимметричного шифрования</a></li>
+          <li>Электронная подпись: <a href="http://crypto-r.narod.ru/glava6/glava6_3.html">Алгоритмы электронной цифровой подписи</a></li>
+          <li>Доступность информации: <a href="http://seoslim.ru/voprosy-i-otvety/chto-takoe-autentifikaciya-identifikaciya-avtorizaciya-2fa.html">Что значит Аутентификация, её виды, отличие от Идентификации и Авторизации</a></li>
+        </ul>
+
+        <h3>Цитаты</h3>
+
+        <p>Интересная информация:</p>
+
+        <blockquote>
+          История создания криптографических алгоритмов не менее загадочна и секретна чем сами алгоритмы.
+        </blockquote>
+
+        <h3>Важные состовляющие значимых компонентов</h3>
+
+        <p>Основными характеристиками информации с точки зрения ее безопасности принято считать:</p>
+
+        <ul>
+          <li>Конфиденциальность</li>
+          <li>Целостность</li>
+          <li>Доступность</li>
+        </ul>
+
+        <p>Имеется пять основных уровней представления информации:</p>
+
+        <ul>
+          <li>Уровень носителей информации</li>
+          <li>Уровень средств взаимодействия с носителем информации</li>
+          <li>Логический уровень</li>
+          <li>Синтаксический уровень</li>
+          <li>Семантический уровень</li>
+        </ul>
+
+        <h3>Термины</h3>
+
+        <p>Важные термины:</p>
+
+        <dl>
+          <dt>Конфиденциальность информации</dt>
+          <dd>это субъективно определяемая характеристика информации, указывающая на необходимость введения ограничений на круг субъектов, имеющих доступ к данной информации. Эта характеристика обеспечивается способностью системы сделать указанную информацию недоступной для субъектов, не имеющих полномочий на доступ к ней.</dd>
+
+          <dt>Целостность информации</dt>
+          <dd>свойство информации существовать в неискаженном виде. При этом предполагается, что защитить от искажений информацию в большинстве случаев не представляется возможным и соответственно задача целостности переформулируется как задача обнаружения любых несанкционированных искажений информации.</dd>
+
+          <dt>Доступность информации</dt>
+          <dd>свойство системы, в которой хранится, обрабатывается и передается информация, обеспечивать своевременный беспрепятственный доступ субъектов к интересующей их информации и готовность соответствующих автоматизированных служб к обслуживанию поступающих от субъектов запросов всегда, когда в обращении к ним возникает необходимость. При этом подразумевается, что у субъектов есть право на такие действия.</dd>
+        </dl>
+
+        <h3>Демонстрационные материалы</h3>
+
+        <p>Важные схемы, представленные на лекциях:</p>
+
+        <figure>
+          <img src="img/information_security/information-processing-methods.jpg" width="500" alt="Методы обработки информации">
+          <figcaption>Методы обработки информации</figcaption>
+        </figure>
+
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <p>Санкт-Петербург, Университет ИТМО, 2019</p>
+      <p class="slogan"><img src="img/slogan.png" alt="It`s more than a University" width="200"></p>
+    </footer>
+  </body>
+</html>
