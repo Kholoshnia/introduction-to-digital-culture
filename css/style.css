@@ -108,9 +108,15 @@ main {
 }
 
 .lecture-information_security-banner {
-  background-color: #1AFBFD;
+  background-color: #0499FE;
   background-size:cover;
   background-image: url("../img/information_security/bg-lecture.jpg");
+}
+
+.lecture-the_digital_economy-blockchain-banner {
+  background-color: #001844;
+  background-size:cover;
+  background-image: url("../img/the_digital_economy-blockchain/bg-lecture.jpg");
 }
 
 .lecture-banner h1 {
