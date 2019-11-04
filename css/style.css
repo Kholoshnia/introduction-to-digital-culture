@@ -119,6 +119,12 @@ main {
   background-image: url("../img/the_digital_economy-blockchain/bg-lecture.jpg");
 }
 
+.lecture-embedded_systems-banner {
+  background-color: #154D97;
+  background-size:cover;
+  background-image: url("../img/embedded_systems/bg-lecture.jpg");
+}
+
 .lecture-banner h1 {
   display: inline;
   margin: 0;
