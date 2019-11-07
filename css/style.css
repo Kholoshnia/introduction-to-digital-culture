@@ -125,6 +125,12 @@ main {
   background-image: url("../img/embedded_systems/bg-lecture.jpg");
 }
 
+.lecture-smart_things_and_safe_life-banner {
+  background-color: #0E7499;
+  background-size:cover;
+  background-image: url("../img/smart_things_and_safe_life/bg-lecture.jpg");
+}
+
 .lecture-banner h1 {
   display: inline;
   margin: 0;
