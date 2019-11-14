@@ -131,6 +131,12 @@ main {
   background-image: url("../img/smart_things_and_safe_life/bg-lecture.jpg");
 }
 
+.lecture-digital_ethics-banner {
+  background-color: #1A4973;
+  background-size:cover;
+  background-image: url("../img/digital_ethics/bg-lecture.jpg");
+}
+
 .lecture-banner h1 {
   display: inline;
   margin: 0;
