@@ -137,6 +137,12 @@ main {
   background-image: url("../img/digital_ethics/bg-lecture.jpg");
 }
 
+.lecture-culture_of_internet_communications-banner {
+  background-color: #2F5293;
+  background-size:cover;
+  background-image: url("../img/culture_of_internet_communications/bg-lecture.jpg");
+}
+
 .lecture-banner h1 {
   display: inline;
   margin: 0;
