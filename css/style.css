@@ -143,6 +143,12 @@ main {
   background-image: url("../img/culture_of_internet_communications/bg-lecture.jpg");
 }
 
+.lecture-digital_education-banner {
+  background-color: #1E8AC7;
+  background-size:cover;
+  background-image: url("../img/digital_education/bg-lecture.jpg");
+}
+
 .lecture-banner h1 {
   display: inline;
   margin: 0;
