@@ -149,6 +149,12 @@ main {
   background-image: url("../img/digital_education/bg-lecture.jpg");
 }
 
+.lecture-digital_humanities-banner {
+  background-color: #000000;
+  background-size:cover;
+  background-image: url("../img/digital_humanities/bg-lecture.jpg");
+}
+
 .lecture-banner h1 {
   display: inline;
   margin: 0;
