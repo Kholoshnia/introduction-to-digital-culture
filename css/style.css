@@ -161,6 +161,12 @@ main {
   background-image: url("../img/bibliographic_search/bg-lecture.jpg");
 }
 
+.lecture-artificial_intelligence-banner {
+  background-color: #2CF3FF;
+  background-size:cover;
+  background-image: url("../img/artificial_intelligence/bg-lecture.jpg");
+}
+
 .lecture-banner h1 {
   display: inline;
   margin: 0;
