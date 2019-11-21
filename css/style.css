@@ -167,6 +167,18 @@ main {
   background-image: url("../img/artificial_intelligence/bg-lecture.jpg");
 }
 
+.lecture-quantum_technology-banner {
+  background-color: #0E0F3E;
+  background-size:cover;
+  background-image: url("../img/quantum_technology/bg-lecture.jpg");
+}
+
+.lecture-social_networks-banner {
+  background-color: #C0CED1;
+  background-size:cover;
+  background-image: url("../img/social_networks/bg-lecture.jpg");
+}
+
 .lecture-banner h1 {
   display: inline;
   margin: 0;
