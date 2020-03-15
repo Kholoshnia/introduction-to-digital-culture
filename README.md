@@ -1,6 +1,6 @@
 # Introduction to Digital Culture
 
-All course lectures:
+List of all course lectures:
 
 - Fundamental
   - Computer and OS architecture
